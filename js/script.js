@@ -12,15 +12,14 @@ console.log(pass);
 document.getElementById('passGenerator').innerHTML = 
 `
 <div class="pb-1">
-  Nome:${firstname}
-</div>
-<div class="pb-1>
-  Cognome:${lastname}
-</div>
-<div class="pb-1>
-  Colore preferito: ${favoriteColor}
+  Nome:<span>${firstname}</span>
 </div>
 <div class="pb-1">
-   Pass: <strong class="pass-css">${pass}21</strong>
+  Cognome:<span>${lastname}</span></div>
+<div class="pb-1">
+  Colore preferito: <span>${favoriteColor}</span>
+</div>
+<div class="pb-1">
+   Pass: <span class="pass-css">${pass}21</span>
 </div>
 `;

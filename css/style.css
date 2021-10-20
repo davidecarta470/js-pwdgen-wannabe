@@ -1,5 +1,9 @@
 #passGenerator{
-  background-color:rgb(9, 26, 20) !important;
+  background-color:rgb(128, 231, 195) !important;
+  
+}
+#passGenerator span{
+  font-weight: bold;
 }
 .pass-css{
   color:rgb(219, 46, 46);
