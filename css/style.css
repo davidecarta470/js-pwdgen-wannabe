@@ -2,9 +2,9 @@
   background-color:rgb(128, 231, 195) !important;
   
 }
-#passGenerator span{
+#passGenerator span,#pass-length{
   font-weight: bold;
 }
-.pass-css{
-  color:rgb(219, 46, 46);
+.pass-css,#pass-length{
+  color:rgb(250, 61, 61);
 }
