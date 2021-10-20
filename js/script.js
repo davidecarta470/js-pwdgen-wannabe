@@ -2,13 +2,14 @@ const firstname = prompt('Firstname?');
 const lastname = prompt('Lastname?');
 const favoriteColor = prompt('Favorite color?');
 
-const pass= firstname + lastname + favoriteColor;
+const pass= firstname+lastname+favoriteColor;
+const passLength =(`${pass.length}`)
 
 console.log(firstname);
 console.log(lastname);
 console.log(favoriteColor);
 console.log(pass);
-
+console.log(`${pass.length}`)
 document.getElementById('passGenerator').innerHTML = 
 `
 <div class="pb-1">
@@ -22,4 +23,9 @@ document.getElementById('passGenerator').innerHTML =
 <div class="pb-1">
    Pass: <span class="pass-css">${pass}21</span>
 </div>
+`;
+
+document.getElementById('pass-length').innerHTML =
+`
+${passLength} 
 `;
