@@ -12,7 +12,7 @@ console.log(firstname);
 console.log(lastname);
 console.log(favoriteColor);
 console.log(pass);
-console.log(`${pass.length}`)
+console.log(`${pass.length}`);
 document.getElementById('passGenerator').innerHTML = 
 `
 <div class="pb-1">
@@ -36,17 +36,15 @@ ${passLength}
 document.getElementById('name-length').innerHTML =
 `
 ${lengthFirstname} 
-`
-;
+`;
+
 document.getElementById
 ('surname-length').innerHTML =
 `
 ${lengthLastname} 
-`
-;
+`;
 document.getElementById
 ('color-length').innerHTML =
 `
 ${lengthFavoriteColor} 
-`
-;
+`;
